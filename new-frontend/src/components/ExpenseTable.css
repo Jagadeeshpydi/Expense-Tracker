@@ -1,0 +1,63 @@
+/* Expense Table */
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.expense-table th, 
+.expense-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.expense-table th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+.expense-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Actions Cell */
+.actions-cell {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Add space between the buttons */
+}
+
+/* Buttons */
+.expense-table button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transform: translate(10px);
+}
+
+.expense-table button.edit-btn {
+  background-color: #4CAF50; /* Green background for edit */
+}
+
+.expense-table button.delete-btn {
+  background-color: #f44336; /* Red background for delete */
+}
+
+/* Remove Hover Effects */
+.expense-table tbody tr {
+  background-color: #f9f9f9; /* Ensure consistent row background color */
+}
+
+.expense-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Consistent alternating row color */
+}
+
+.expense-table tbody tr:hover {
+  background-color: inherit; /* Remove hover effect */
+}

@@ -1,0 +1,128 @@
+/* Global reset for margins, padding, and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure html and body take full height */
+html, body {
+  height: 100%;
+}
+.login-container .forgot-password{
+  color: #003eb8;
+}
+/* Background and layout for the login page */
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://media.istockphoto.com/id/1334591614/photo/man-using-digital-tablet-online-connect-to-internet-banking-currency-exchange-online-shopping.jpg?s=612x612&w=0&k=20&c=nejA5SuHcN2fAdO7Bkaf9pJrwzyLPBCyOLZgMaslGko=");
+  background-size: cover; /* Ensure background image covers the full container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  width: 100%; /* Ensure the container takes the full width */
+  padding: 0; /* Remove any default padding */
+}
+
+/* Container for login form */
+.login-container {
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgb(252, 252, 252);
+  width: 100%;
+  max-width: 400px; /* Restrict max-width for better responsiveness */
+  color: #f5f5f5;
+  text-align: center;
+ box-sizing: border-box;
+ background: #000000;
+ filter: drop-shadow( 0px 0px 15px  rgb(252, 252, 252));
+
+}
+
+/* Header styling */
+.login-container header {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff; /* Header color */
+  font-size:50px;
+
+}
+
+/* Label styling */
+.login-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Input styling */
+.login-container input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #ffffff; /* Input background is white for contrast */
+  box-sizing: border-box;
+  box-shadow: 0px 0px 15px rgb(252, 252, 252);
+}
+
+/* Input focus styling */
+.login-container input:focus {
+  border-color: #d1d1d1;
+  outline: none;
+}
+
+/* Button styling */
+.login-container button {
+  width: 40%; /* Full width of the parent container */
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #0050f0e5;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.login-container button:hover {
+  background-color: #15c458; /* Darker shade on hover */
+  color: #000000;
+}
+
+/* Button disabled styling */
+.login-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Error message styling */
+.message.error {
+  color: #ff1111;
+  margin-top: 1rem;
+}
+
+/* Sign-up link styling */
+.signup-link {
+  margin-top: 1rem;
+}
+
+.login .signup-link a {
+  color: blue;
+  text-decoration: none;
+}
+
+
+/* Hover effect for the sign-up link */
+.signup-link a:hover {
+  text-decoration: underline;
+  color: rgb(251, 8, 0);
+  font-size: 16px;
+  font-style: bold;
+}

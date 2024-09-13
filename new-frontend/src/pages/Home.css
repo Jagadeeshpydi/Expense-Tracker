@@ -1,0 +1,134 @@
+/* Container for the home page */
+.home-container1 {
+  padding: 20px;
+  width: 1000px; /* Adjust width to fit your design */
+  margin: 0 auto; /* Center container horizontally */
+  color: #ffffff;
+  background-size: cover;
+  min-height: 100vh; /* Ensure container covers the full height of the viewport */
+ 
+  position: relative; /* Ensure positioning context for absolute elements */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  gap: 20px; /* Space between description and form */
+}
+
+/* Container for description and form */
+.description-form-container {
+  display: flex; /* Use flexbox for layout */
+  gap: 50px; /* Space between description and form */
+}
+
+/* Description paragraph styling */
+.description {
+  flex: 1; /* Allow description to take up available space */
+  font-size: 1.1rem; /* Slightly larger font size for readability */
+  color: #ffffff; /* White color to match the form text */
+  margin-bottom: 20px; /* Add margin below the paragraph */
+  line-height: 1.5; /* Improve readability */
+  max-width: 600px; /* Limit width of the description */
+}
+
+/* Form container styling */
+.form-container {
+  flex: 2; /* Allow form to take up more space than the description */
+  max-width: 600px; /* Limit width of the form */
+  color: #ffffff; /* White color for text in form container */
+  
+}
+
+/* Center align the heading */
+.home-container1 header{
+  font-size: 2.5rem;
+  margin-bottom: 20px; /* Add margin below heading */
+  
+}
+.main-content1{
+  background-image: url("https://as2.ftcdn.net/v2/jpg/09/56/23/95/1000_F_956239519_bPWPpw6JJQz0vHshh1DQfTq4TejfNAWq.jpg");
+  transform: translate(100px);
+  
+}
+/* Form group styling */
+.form-group1 {
+  margin-bottom: 15px; /* Add margin below form groups */
+  color: #ffffff; /* White color for form group labels */
+}
+
+/* Form input and select styling */
+input[type="date"],
+input[type="number"],
+select,
+textarea {
+  width: 70%; /* Full width of parent container */
+  padding: 10px; /* Add padding */
+  border: 1px solid #000000; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+  max-width: 100%; /* Ensure inputs don’t exceed their container */
+  box-shadow: 0px 0px 15px rgba(243, 242, 242, 0.675);
+}
+
+/* Textarea styling */
+textarea {
+  height: 100px; /* Fixed height for textarea */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+button {
+  padding: 10px 20px; /* Adjust padding for size */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  background-color: #000000; /* Primary background color */
+  color: rgb(249, 249, 249); /* White text color */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  margin: 10px; /* Add margin around buttons */
+  display: inline-block; /* Align buttons next to each other */
+}
+
+/* Button focus styling */
+button:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 3px rgb(0, 130, 251); /* Custom focus outline */
+}
+
+/* Optional: Center align buttons in form or container */
+.button-group {
+  text-align: center; /* Center align buttons */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .home-container1 {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    padding: 15px;
+  }
+
+  .description-form-container {
+    flex-direction: column; /* Stack description and form vertically */
+    gap: 15px; /* Reduce gap for smaller screens */
+  }
+
+  button {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .description .form-container {
+    gap: 10px; /* Further reduce gap for mobile screens */
+    display: grid;
+    grid-template-rows:40px 40px auto 80px 40px ;
+    grid-template-areas: 'form-container' 'description';
+  }
+
+  button {
+    font-size: 12px; /* Further adjust font size for mobile */
+    padding: 6px 12px; /* Further adjust padding for mobile */
+  }
+}
+button:hover{
+  background-color: #07a862;
+}

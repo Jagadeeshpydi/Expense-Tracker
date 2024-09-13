@@ -1,0 +1,70 @@
+/* Contact.css */
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f4f4f4; /* Light gray background */
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-header h1 {
+  font-size: 2.5em;
+  color: #333; /* Dark text color */
+  transform: translate(10px);
+}
+
+.contact-main {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+  width: 100%;
+  max-width: 600px;
+}
+
+.contact-main form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-main label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555; /* Slightly lighter text color */
+}
+
+.contact-main input[type="text"],
+.contact-main input[type="email"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-main button {
+  padding: 12px;
+  background-color: #007bff; /* Blue button */
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  transform: translate(10px);
+}
+
+.contact-main button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

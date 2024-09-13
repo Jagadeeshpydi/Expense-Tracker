@@ -1,0 +1,107 @@
+/* General styles for the sidebar */
+.sidebar {
+  width: 250px; /* Default width */
+  height: 100vh; /* Full height of the viewport */
+  background-color: #1a202d; /* Dark background color */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+  position: fixed; /* Fixed positioning to keep it on the left */
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  z-index: 1000; /* Ensure the sidebar is above other elements */
+  overflow: auto; /* Ensure content in sidebar is scrollable if it overflows */
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0px 0px 15px rgb(26, 23, 23);
+}
+
+/* Hide the sidebar offscreen for a menu toggle (optional) */
+.sidebar.hidden {
+  transform: translateX(-100%); /* Move sidebar out of view */
+}
+
+/* Link styles */
+.sidebar a {
+  display: block; /* Make links block-level for padding and margin to work */
+  color: #f0f0f0; /* Light link color */
+  text-decoration: none; /* Remove underline from links */
+  padding: 12px 20px; /* Padding for link items */
+  margin: 8px 0; /* Margin between links */
+  font-size: 18px; /* Font size for links */
+  border-radius: 4px; /* Rounded corners for links */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for links */
+.sidebar a:hover {
+  background-color: #ffffff6e; /* Slightly lighter background on hover */
+  color: #ffffff; /* Link color on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%; /* Full width for tablets and smaller screens */
+    height: 60px; /* Shrink height to fit the horizontal navbar */
+    top: 0;
+    left: 0;
+    flex-direction: row; /* Change to horizontal layout */
+    justify-content: space-around; /* Space out the links horizontally */
+    padding: 0; /* Remove padding to fit the smaller height */
+  }
+
+  .sidebar ul {
+    display: flex; /* Flexbox for horizontal alignment */
+    flex-direction: row; /* Display items in a row */
+    align-items: center; /* Vertically center links */
+    justify-content: space-around; /* Evenly space out the links */
+    width: 100%; /* Take full width */
+    padding: 0;
+  }
+
+  .sidebar a {
+    font-size: 16px; /* Slightly smaller font */
+    padding: 10px 15px; /* Adjust padding */
+    margin: 0; /* Remove vertical margin */
+  }
+}
+
+/* Further adjustments for very small mobile screens */
+@media (max-width: 480px) {
+  .sidebar {
+    height: 50px; /* Smaller height for mobile devices */
+  }
+
+  .sidebar a {
+    font-size: 14px; /* Smaller font size for mobile */
+    padding: 8px 10px; /* Smaller padding */
+  }
+}
+
+/* Adjust main content to account for sidebar */
+.main-content {
+  margin-left: 250px; /* Margin to the right of the sidebar */
+  padding: 20px; /* Padding for content area */
+  overflow-y: auto; /* Enable vertical scrolling */
+  height: 100vh; /* Full viewport height */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+  position: relative; /* Ensure it does not scroll the sidebar */
+  z-index: 1; /* Ensure it is below the sidebar */
+  background-color: #f9f9f9; /* Light background for main content */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0; /* Remove margin for smaller screens */
+    padding-top: 60px; /* Add top padding to account for the horizontal navbar */
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    margin-left: 0; /* Remove margin for smallest screens */
+    padding-top: 50px; /* Adjust top padding for the smaller horizontal navbar */
+  }
+}

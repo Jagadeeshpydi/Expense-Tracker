@@ -1,0 +1,175 @@
+2024-08-30T08:58:54.115Z [info]: Request: GET /expenses
+2024-08-30T08:58:54.124Z [info]: Request: GET /expenses
+2024-08-30T08:58:57.321Z [info]: Request: GET /expenses
+2024-08-30T08:58:57.325Z [info]: Request: GET /expenses
+2024-08-30T08:59:18.421Z [info]: Request: GET /api/login
+2024-08-30T08:59:24.008Z [info]: Request: POST /api/users/register
+2024-08-30T09:00:22.663Z [info]: Request: POST /api/users/register
+2024-08-30T09:02:54.418Z [info]: Request: POST /api/users/register
+2024-08-30T09:10:48.493Z [info]: Request: POST /api/users/register
+2024-08-30T09:10:48.670Z [info]: User registered successfully: john.doe@example.com
+2024-08-30T09:11:04.114Z [info]: Request: GET /api/login
+2024-08-30T09:18:41.940Z [info]: Request: GET /api/login
+2024-08-30T09:19:04.659Z [info]: Request: POST /api/login
+2024-08-30T09:20:26.434Z [info]: Request: POST /api/login
+2024-08-30T09:22:06.049Z [info]: Request: POST /api/login
+2024-08-30T09:22:40.419Z [info]: Request: POST /api/login
+2024-08-30T09:26:40.069Z [info]: Request: POST /api/login
+2024-08-30T09:29:37.782Z [info]: Request: POST /api/login
+2024-08-30T09:30:24.622Z [info]: Request: POST /api/login
+2024-08-30T09:30:41.911Z [info]: Request: POST /api/login
+2024-08-30T09:34:40.624Z [info]: Request: POST /api/login
+2024-08-30T09:36:12.098Z [info]: Request: POST /api/login
+2024-08-30T09:38:40.277Z [info]: Request: POST /api/login
+2024-08-30T09:53:07.207Z [info]: Request: POST /api/login
+2024-08-30T09:54:25.639Z [info]: Request: POST /api/users/login
+2024-08-30T09:54:25.828Z [warn]: Login attempt failed: Invalid credentials for email: john.doe@example.com
+2024-08-30T09:58:41.943Z [info]: Request: POST /api/users/login
+2024-08-30T09:58:42.066Z [warn]: Login attempt failed: Invalid credentials for email: john.doe@example.com
+2024-08-30T10:00:00.875Z [info]: Request: POST /api/users/login
+2024-08-30T10:00:00.935Z [warn]: Login attempt failed: Invalid credentials for email: john.doe@example.com
+2024-08-30T10:01:15.482Z [info]: Request: POST /api/users/login
+2024-08-30T10:01:15.548Z [warn]: Login attempt failed: Invalid credentials for email: john.doe@example.com
+2024-08-30T10:01:59.337Z [info]: Request: POST /api/users/login
+2024-08-30T10:01:59.398Z [warn]: Login attempt failed: Invalid credentials for email: john.doe@example.com
+2024-08-30T10:04:01.037Z [info]: Request: POST /api/users/register
+2024-08-30T10:04:01.047Z [warn]: User already exists with email: john.doe@example.com
+2024-08-30T10:04:20.632Z [info]: Request: POST /api/users/login
+2024-08-30T10:04:20.696Z [warn]: Login attempt failed: Invalid credentials for email: john.doe@example.com
+2024-08-30T10:05:36.448Z [info]: Request: POST /api/users/login
+2024-08-30T10:05:36.511Z [warn]: Login attempt failed: Invalid credentials for email: john.doe@example.com
+2024-08-30T10:10:20.858Z [info]: Request: POST /api/users/login
+2024-08-30T10:10:20.921Z [warn]: Login attempt failed: Invalid credentials for email: john.doe@example.com
+2024-08-30T10:10:59.209Z [info]: Request: GET /api/videos/
+2024-08-30T10:11:16.204Z [info]: Request: GET /api/videos/
+2024-08-30T10:12:59.071Z [info]: Request: GET /api/videos/
+2024-08-30T10:14:45.473Z [info]: Request: GET /api/videos/
+2024-08-30T10:31:13.553Z [info]: Request: POST /api/users/register
+2024-08-30T10:31:13.728Z [info]: User registered successfully: john.doe@example.com
+2024-08-30T10:35:34.285Z [info]: Request: POST /api/users/login
+2024-08-30T10:35:34.353Z [warn]: Login attempt failed: Invalid credentials for email: john.doe@example.com
+2024-08-30T10:38:47.298Z [info]: Request: POST /api/users/login
+2024-08-30T10:38:47.360Z [warn]: Login attempt failed: Invalid credentials for email: john.doe@example.com
+2024-08-30T10:38:50.692Z [info]: Request: POST /api/users/login
+2024-08-30T10:38:50.760Z [warn]: Login attempt failed: Invalid credentials for email: john.doe@example.com
+2024-08-30T10:40:49.740Z [info]: Request: POST /api/users/login
+2024-08-30T10:40:49.796Z [warn]: Login attempt failed: Invalid credentials for email: john.doe@example.com
+2024-08-30T10:44:04.839Z [info]: Request: POST /api/users/login
+2024-08-30T10:58:10.480Z [info]: Request: GET /api/users/register
+2024-08-30T10:58:17.974Z [info]: Request: POST /api/users/register
+2024-08-30T11:00:57.375Z [info]: Request: GET /expenses
+2024-08-30T11:00:57.386Z [info]: Request: GET /expenses
+2024-08-30T11:01:32.464Z [info]: Request: PUT /expenses/undefined
+2024-08-30T11:01:33.811Z [info]: Request: PUT /expenses/undefined
+2024-08-30T11:01:34.018Z [info]: Request: PUT /expenses/undefined
+2024-08-30T11:01:36.384Z [info]: Request: PUT /expenses/undefined
+2024-08-30T11:01:36.576Z [info]: Request: PUT /expenses/undefined
+2024-08-30T11:01:36.797Z [info]: Request: PUT /expenses/undefined
+2024-08-30T11:02:42.483Z [info]: Request: PUT /expenses/undefined
+2024-08-30T11:03:11.003Z [info]: Request: PUT /expenses/undefined
+2024-08-30T11:03:17.749Z [info]: Request: GET /expenses
+2024-08-30T11:03:17.755Z [info]: Request: GET /expenses
+2024-08-30T11:03:28.813Z [info]: Request: GET /expenses
+2024-08-30T11:03:28.818Z [info]: Request: GET /expenses
+2024-08-30T11:03:30.228Z [info]: Request: DELETE /expenses/undefined
+2024-08-30T11:22:55.790Z [info]: Request: POST /api/users/register
+2024-08-30T11:23:31.353Z [info]: Request: POST /api/users/register
+2024-08-30T11:28:32.912Z [info]: Request: POST /api/users/register
+2024-08-30T11:52:21.068Z [info]: Request: POST /api/users/register
+2024-08-30T11:52:22.388Z [info]: Request: POST /api/users/register
+2024-08-30T11:52:22.619Z [info]: Request: POST /api/users/register
+2024-08-30T11:54:30.740Z [info]: Request: POST /api/users/register
+2024-08-30T11:55:48.091Z [info]: Request: POST /api/users/register
+2024-08-30T11:57:31.654Z [info]: Request: POST /api/users/register
+2024-08-30T11:57:32.709Z [info]: Request: POST /api/users/register
+2024-08-30T11:57:32.937Z [info]: Request: POST /api/users/register
+2024-08-30T15:36:59.226Z [info]: User registered successfully: john.doe@example.com
+2024-08-30T16:09:09.406Z [info]: Login attempt with email: john.doe@example.com
+2024-08-30T16:09:09.706Z [warn]: Login failed - Password mismatch for email: john.doe@example.com
+2024-08-30T16:16:11.242Z [info]: User registered successfully: john.doe@example.com
+2024-08-30T16:16:15.087Z [info]: Login attempt with email: john.doe@example.com
+2024-08-30T16:16:15.492Z [warn]: Login failed - Password mismatch for email: john.doe@example.com
+2024-08-30T16:21:07.193Z [info]: Login attempt with email: john.doe@example.com
+2024-08-30T16:21:07.347Z [warn]: Login failed - Password mismatch for email: john.doe@example.com
+2024-08-30T16:34:57.651Z [info]: User registered successfully: john.doe@example.com
+2024-08-30T16:35:01.402Z [info]: Login attempt with email: john.doe@example.com
+2024-08-30T16:35:01.668Z [warn]: Login failed - Password mismatch for email: john.doe@example.com
+2024-08-30T16:42:23.947Z [warn]: User already exists with email: john.doe@example.com
+2024-08-30T16:42:55.100Z [info]: User registered successfully: john.doe@example.com
+2024-08-30T16:47:25.265Z [info]: User registered successfully: john.doe@example.com
+2024-08-30T16:47:28.980Z [info]: Login attempt with email: john.doe@example.com
+2024-08-30T16:47:29.250Z [warn]: Login failed - Password mismatch for email: john.doe@example.com
+2024-08-30T16:50:17.691Z [info]: Login attempt with email: john.doe@example.com
+2024-08-30T16:50:17.844Z [warn]: Login failed - Password mismatch for email: john.doe@example.com
+2024-08-30T16:59:57.986Z [info]: User registered successfully: john.doe@example.com
+2024-08-30T17:03:48.793Z [info]: Login attempt with email: john.doe@example.com
+2024-08-30T17:03:48.952Z [warn]: Login failed - Password mismatch for email: john.doe@example.com
+2024-08-30T17:07:36.808Z [info]: Login attempt with email: john.doe@example.com
+2024-08-30T17:07:36.987Z [warn]: Login failed - Password mismatch for email: john.doe@example.com
+2024-08-30T17:09:49.732Z [info]: User registered successfully: john.doe@example.com
+2024-08-30T17:09:54.651Z [info]: Login attempt with email: john.doe@example.com
+2024-08-30T17:09:54.810Z [warn]: Login failed - Password mismatch for email: john.doe@example.com
+2024-08-30T17:15:13.314Z [warn]: User already exists with email: john.doe@example.com
+2024-08-30T17:15:42.034Z [info]: User registered successfully: john.doe@example.com
+2024-08-30T17:17:01.659Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:18:37.963Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:20:42.120Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:20:43.178Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:20:43.312Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:20:43.476Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:20:43.633Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:20:43.779Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:20:43.910Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:20:44.059Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:20:44.210Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:20:44.349Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:20:44.490Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:20:44.712Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:23:58.264Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:25:55.825Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:28:10.357Z [info]: User registered successfully: jagadeeshpydi143@gmail.com
+2024-08-30T17:28:33.168Z [warn]: Login attempt failed: Incorrect password for email jagadeeshpydi143@gmail.com
+2024-08-30T17:28:45.178Z [warn]: Login attempt failed: Incorrect password for email jagadeeshpydi143@gmail.com
+2024-08-30T17:28:47.571Z [warn]: Login attempt failed: Incorrect password for email jagadeeshpydi143@gmail.com
+2024-08-30T17:30:27.889Z [info]: User registered successfully: john.doe@example.com
+2024-08-30T17:30:31.680Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:31:06.173Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:32:16.469Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:38:07.994Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:39:09.946Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-30T17:40:53.460Z [warn]: Login attempt failed: Incorrect password for email john.doe@example.com
+2024-08-31T11:50:57.891Z [info]: User registered successfully: john.doe@example.com
+2024-08-31T18:56:18.014Z [warn]: User already exists with email: john.doe@example.com
+2024-08-31T19:22:54.616Z [info]: User registered successfully: john.doe@example.com
+2024-08-31T19:26:53.307Z [warn]: User already exists with email: john.doe@example.com
+2024-08-31T19:27:20.243Z [info]: User registered successfully: john.doe@example.com
+2024-08-31T19:55:04.472Z [info]: User registered successfully: jagadeeshpydi143@gmail.com
+2024-09-01T11:57:04.566Z [info]: User registered successfully: jagadeeshpydi143@gmail.com
+2024-09-01T11:59:18.798Z [warn]: User already exists with email: jagadeeshpydi143@gmail.com
+2024-09-01T12:01:00.004Z [info]: User registered successfully: jagadeeshpydi143@gmail.com
+2024-09-01T12:01:56.647Z [info]: User registered successfully: jagadeeshpydi143@gmail.com
+2024-09-01T12:10:40.356Z [info]: User registered successfully: jagadeeshpydi143@gmail.com
+2024-09-01T12:32:57.736Z [info]: User registered successfully: jagadeeshpydi143@gmail.com
+2024-09-01T12:41:25.334Z [info]: User registered successfully: jagadeeshpydi143@gmail.com
+2024-09-01T13:38:45.795Z [warn]: User already exists with email: jagadeeshpydi143@gmail.com
+2024-09-01T14:22:09.963Z [warn]: User already exists with email: jagadeeshpydi143@gmail.com
+2024-09-02T07:43:46.707Z [info]: Comparing passwords for user: jagadeeshpydi143@gmail.com
+2024-09-02T07:43:46.766Z [info]: Password comparison result for jagadeeshpydi143@gmail.com: false
+2024-09-02T07:43:46.766Z [warn]: Invalid password attempt for email: jagadeeshpydi143@gmail.com
+2024-09-02T07:44:55.519Z [info]: Comparing passwords for user: jagadeeshpydi143@gmail.com
+2024-09-02T07:44:55.575Z [info]: Password comparison result for jagadeeshpydi143@gmail.com: false
+2024-09-02T07:44:55.576Z [warn]: Invalid password attempt for email: jagadeeshpydi143@gmail.com
+2024-09-02T07:56:48.401Z [info]: User registered successfully: jagadeeshpydi143@gmail.com
+2024-09-02T07:56:52.344Z [info]: Comparing passwords for user: jagadeeshpydi143@gmail.com
+2024-09-02T07:56:52.399Z [info]: Password comparison result for jagadeeshpydi143@gmail.com: false
+2024-09-02T07:56:52.400Z [warn]: Invalid password attempt for email: jagadeeshpydi143@gmail.com
+2024-09-02T08:02:52.740Z [info]: User registered successfully: jagadeeshpydi143@gmail.com
+2024-09-02T08:02:56.480Z [info]: Comparing passwords for user: jagadeeshpydi143@gmail.com
+2024-09-02T08:02:56.536Z [info]: Password comparison result for jagadeeshpydi143@gmail.com: false
+2024-09-02T08:02:56.536Z [warn]: Invalid password attempt for email: jagadeeshpydi143@gmail.com
+2024-09-02T08:27:34.631Z [info]: User registered successfully: jagadeeshpydi143@gmail.com
+2024-09-02T08:28:26.797Z [info]: User registered successfully: jagadeeshpydi143@gmail.com
+2024-09-02T08:30:19.280Z [info]: User registered successfully: jagadeeshpydi143@gmail.com
+2024-09-02T08:32:29.985Z [warn]: User already exists with email: jagadeeshpydi143@gmail.com
+2024-09-02T08:32:51.474Z [info]: User registered successfully: jagadeeshpydi143@gmail.com
+2024-09-02T08:34:19.539Z [info]: User registered successfully: jagadeeshpydi143@gmail.com
